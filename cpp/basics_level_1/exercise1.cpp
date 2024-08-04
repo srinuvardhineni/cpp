@@ -10,8 +10,7 @@ int main()
     std::cout << "Enter user_age: ";
     std::cin >> user_age;
 
-    std::cout << user_name << std::endl;
-    std::cout << user_age << std::endl;
+    std::cout << "Your name is " << user_name << " and age is " << user_age << "." << std::endl;
 
     return 0;
 }
